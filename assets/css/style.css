@@ -58,8 +58,14 @@ h1, h2 {
 
 /* hero image */
 
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('assets/image/hero-image.webp') no-repeat center center;
+    background: url('../images/hero-image.webp') no-repeat center center;
 }
