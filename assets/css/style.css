@@ -11,8 +11,8 @@ body {
     font-weight: 300;
     color: #3a3a3a;
 }
-/*headings and logo*/
 
+/* headings and logo */
 
 h1, h2 {
     font-family: Oswald, sans-serif;
@@ -25,7 +25,8 @@ h1, h2 {
     float: left;
     font-size: 280%;
 }
-/*navigation links */
+
+/* navigation links */
 
 #menu {
     font-size: 110%;
@@ -35,25 +36,30 @@ h1, h2 {
 #menu, #logo {
     line-height: 75px;
 }
+
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
+
 #menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a {
-text-decoration: none;
-color: inherit;
-}
-
 #menu a:hover {
-border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.webp') no-repeat center center;
 }
